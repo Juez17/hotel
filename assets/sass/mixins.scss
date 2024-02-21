@@ -1,0 +1,52 @@
+@import 'variables';
+
+@mixin section {
+    padding: $pd-s 0;
+    text-align: center;
+
+}
+
+@mixin section-title {
+    font-size: 3rem;
+    margin: $mg-s 0 0 10%;
+    text-align: left;
+}
+
+@mixin contact-card {
+    padding: $pd-s;
+    // margin-bottom: $mg-l;
+}
+
+@mixin card-title {
+    font-size: $fz-s;
+}
+
+@mixin card-first-info {
+    font-size: $fz-xs;
+}
+
+@mixin card-second-info {
+    font-size: $fz-xxs;
+}
+
+@mixin image-gradient {
+    background-image: linear-gradient(to top, rgba(108, 85, 58, .4), rgba(26, 16, 4, .62));
+}
+
+@mixin button {
+    border: 1px solid $col-primary-gold;
+    color: rgba($col-primary-gold, $opacity-medium);
+}
+
+@mixin section-line {
+    width: 80%;
+    height: 1px;
+    background-color: rgba($col-primary-gold, .55);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: $mg-xs;
+}
+
+@mixin color-opacity($color, $opacity) {
+    color: rgba($color, $opacity);
+}

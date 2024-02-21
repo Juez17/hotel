@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Hotel Anton Pruszków" />
+    <title>Hotel Anton</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="shortcut icon" type="image/jpg" href="./assets/img/logo.jpg" />
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Jura:wght@400;700&display=swap"
+    />
+
+    <link
+      rel="stylesheet"
+      media="print"
+      onload="this.onload=null;this.removeAttribute('media');"
+      href="https://fonts.googleapis.com/css2?family=Jura:wght@400;700&display=swap"
+    />
+
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <script src="assets/js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <article class="hero-section">
+        <aside class="black-bar hero-section__black-bar">
+          <img
+            src="assets/img/logo.jpg"
+            alt="logo hotelu Anton"
+            class="black-bar__logo"
+          />
+          <p class="black-bar__author-note">DNS Hotele Anton 2023&copy;</p>
+        </aside>
+        <section class="hero-section__content-area slide">
+          <div class="slide__text-area">
+            <h1 class="slide__title">Witamy w Hotelu Anton!</h1>
+            <p class="slide__text">
+              Nasz elegancki i wygodny hotel znajduje się w Pruszkowie, tuż przy
+              urokliwym boisku piłkarskim. Nasza lokalizacja jest idealna dla
+              osób szukających spokoju i ciszy, a jednocześnie chcących mieć
+              łatwy dostęp do atrakcji turystycznych i rozrywek.
+            </p>
+          </div>
+          <div class="slide__dots dots">
+            <div class="dots__dot dots__dot--active"></div>
+            <div class="dots__dot"></div>
+            <div class="dots__dot"></div>
+          </div>
+        </section>
+        <header class="hero-section__site-header">
+          <nav class="hero-section__navigation">
+            <ul class="menu">
+              <li class="menu__list-item">
+                <a href="#hotel">HOTEL </a>
+              </li>
+
+              <li class="menu__list-item">
+                <a href="#restaurant">RESTAURACJA </a>
+              </li>
+
+              <li class="menu__list-item">
+                <a href="#rezerwacje">REZERWACJE </a>
+              </li>
+
+              <li class="menu__list-item">
+                <a href="#kontakt">KONTAKT </a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class="slider">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            class="slider__arrow slider__arrow--left"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            class="slider__arrow slider__arrow--right"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+            />
+          </svg>
+        </div>
+      </article>
+
+      <article class="section hotel-section" id="hotel">
+        <h2 class="section__title hotel-section__title">Hotel</h2>
+        <div class="section__line hotel-section__line"></div>
+        <p class="section__text hotel-section__text">
+          Hotel Anton to idealne miejsce zarówno dla turystów i sportowców, jak
+          również osób podróżujących wyłącznie służbowo, Dzięki swojej
+          lokalizacji tuż przy boisku piłkarskim, zaledwie jeden krok dzieli nas
+          od najlepszych treningów i rozgrywek.
+        </p>
+        <div class="hotel-section__graphics-container">
+          <p class="hotel-section__graphic-info">Anton to także:</p>
+          <div class="hotel-section__circle circle">
+            <div class="circle__item item">
+              <img
+                src="assets/img/bed.svg"
+                alt="ikona łóżka"
+                class="item__img"
+              />
+
+              <p class="item__description">64 Nowoczesne pokoje</p>
+            </div>
+            <div class="circle__item item">
+              <img
+                src="assets/img/business-meeting.svg"
+                alt="ikona łóżka"
+                class="item__img"
+              />
+              <p class="item__description">4 Sale konferencyjne</p>
+            </div>
+            <div class="circle__item item">
+              <img
+                src="assets/img/cocktail.svg"
+                alt="ikona łóżka"
+                class="item__img"
+              />
+              <p class="item__description">Elegancki, wyposażony bar</p>
+            </div>
+            <div class="circle__item item">
+              <img
+                src="assets/img/restaurant.svg"
+                alt="ikona łóżka"
+                class="item__img"
+              />
+              <p class="item__description">Tradycyjna, polska kuchnia</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      
+
+      <article class="section restaurant-section" id="restaurant">
+        <h2 class="section__title restaurant-section__title">Restauracja</h2>
+        <div class="section__line hotel-section__line"></div>
+        <div class="restaurant-section__menu-container menu-container">
+          <img
+            src="./assets/img/menu2.webp"
+            alt="menu"
+            class="magnifiedImg menu-container__img menu-container__img--left"
+            onerror="this.src='./assets/img/menu2.png'"
+          />
+          <img
+            src="./assets/img/menu1.webp"
+            alt="menu"
+            class="magnifiedImg menu-container__img menu-container__img--middle"
+            onerror="this.src='./assets/img/menu1.png'"
+          />
+          <img
+            src="./assets/img/menu3.webp"
+            alt="menu"
+            class="magnifiedImg menu-container__img menu-container__img--right"
+            onerror="this.src='./assets/img/menu3.png'"
+          />
+        </div>
+        <p class="restaurant-section__text section__text">
+          Restauracja hotelowa, która znajduje się przy boisku sportowym klubu
+          piłkarskiego Znicz, serwuje wyśmienite dania kuchni polskiej. Goście
+          mogą cieszyć się smacznymi potrawami, jednocześnie podziwiając widok
+          na rozgrywki sportowe, co sprawia, że atmosfera jest wyjątkowa. To
+          idealne miejsce dla miłośników polskiej kuchni i sportowych emocji.
+        </p>
+      </article>
+
+      <article class="section booking-section" id="rezerwacje">
+        <h2 class="booking-section__title section__title">Rezerwacje</h2>
+        <div class="section__line booking-section__line"></div>
+        <div class="booking-section__img"></div>
+
+        <div class="booking-section__content-container">
+          <p class="section__text booking-section__text">
+            Rezerwacja w Hotelu Anton to gwarancja udanego pobytu. Zapraszamy do
+            zrobienia rezerwacji na stronie Bookingu, gdzie znajdziecie
+            najlepsze oferty. Nie czekajcie i zarezerwujcie swój pobyt już
+            teraz!
+          </p>
+          <a
+            href="https://www.booking.com/hotel/pl/anton.pl.html"
+            class="booking-section__button"
+            >REZERWUJ</a
+          >
+        </div>
+      </article>
+
+      <article class="section contact-section" id="kontakt">
+        <h2 class="section__title contact-section__title">Kontakt</h2>
+        <div class="section__line contact-section__line"></div>
+
+        <div class="contact-section__info-card info-card info-card__address">
+          <div class="info-card__title-info-wrapper">
+            <img
+              src="assets/img/maps-and-flags.svg"
+              alt="ikona pinezki"
+              class="info-card__icon"
+            />
+            <h3 class="info-card__title-info">Adres</h3>
+          </div>
+          <h4 class="info-card__first-info">ul. Bolesława Prusa 1</h4>
+          <h4 class="info-card__second-info">05-800 Pruszków</h4>
+        </div>
+
+        <!-- <div class="map-wrapper"> -->
+
+        <iframe
+          title="Anton na mapie"
+          class="contact-section__map map"
+          id="gmap_canvas"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2447.073798183115!2d20.80930171579445!3d52.16935167974938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4719359154655555%3A0x5404a68a7cc5963b!2sHotel%20Anton!5e0!3m2!1spl!2spl!4v1687089697334!5m2!1spl!2spl"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <!-- </div> -->
+
+        <div
+          class="contact-section__info-card info-card info-card--left info-card__company"
+        >
+          <div class="info-card__title-info-wrapper">
+            <img
+              src="assets/img/group.svg"
+              alt="ikona pokazująca grupę ludzi"
+              class="info-card__icon"
+            />
+            <h3 class="info-card__title-info">Grupy/Firmy</h3>
+          </div>
+          <h4 class="info-card__first-info">000 000 000</h4>
+          <h4 class="info-card__second-info">example@example.pl</h4>
+        </div>
+        <div
+          class="contact-section__info-card info-card info-card--right info-card__reception"
+        >
+          <div class="info-card__title-info-wrapper">
+            <img
+              src="assets/img/reception.svg"
+              alt="ikona dzwonka recepcji"
+              class="info-card__icon"
+            />
+            <h3 class="info-card__title-info">Recepcja</h3>
+          </div>
+          <h4 class="info-card__first-info">22 000 00 00</h4>
+          <h4 class="info-card__second-info">example@example.pl</h4>
+        </div>
+      </article>
+      <footer class="footer">
+        <div class="footer__line"></div>
+        <div class="footer__column">
+          <div class="footer__icons">
+            <a
+              aria-label="sprawdź nasz booking"
+              href="https://www.booking.com/hotel/pl/anton.pl.html"
+              class="footer__link"
+            >
+              <img
+                class="footer__icon"
+                src="./assets/img/letter-b.svg"
+                alt="ikona booking.com"
+              />
+            </a>
+            <a
+              aria-label="sprawdź nasz facebook"
+              href="https://www.facebook.com/antonhotel/"
+              class="footer__link"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="footer__icon"
+                fill="currentColor"
+                viewBox="0 0 50 50"
+                width="50px"
+                height="50px"
+              >
+                <path
+                  d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="footer__trademark">
+            <p>Anton</p>
+            <p>DNS Hotele</p>
+            <p>2023 ©</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <div class="modal hidden">
+      <img src="./assets/img/menu1.webp" alt="menu" class="img-1 modal__img" />
+      <div class="img-2"></div>
+      <span class="modal__x">X</span>
+    </div>
+  </body>
+</html>
